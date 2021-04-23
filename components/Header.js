@@ -5,8 +5,13 @@ import { BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon
 const Header = () => {
     return (
         <header className="" >
-            <div>
+            <div className="flex" >
                 <HeaderItem title="Home" Icon={HomeIcon} />
+                <HeaderItem title="Trending" Icon={LightningBoltIcon} />
+                <HeaderItem title="Verified" Icon={BadgeCheckIcon} />
+                <HeaderItem title="Collections" Icon={CollectionIcon} />
+                <HeaderItem title="Search" Icon={SearchIcon} />
+                <HeaderItem title="Account" Icon={UserIcon} />
             </div>
             <Image
                 className="object-contain"
