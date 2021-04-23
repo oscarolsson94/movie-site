@@ -1,7 +1,21 @@
-const Thumbnail = ({result}) => {
+import Image from "next/image";
+
+const Thumbnail = ({ result }) => {
+    
+    const BASE_URL = "https://image.tmdb.org/t/p/original/";
+
     return (
         <div>
-            <h1>Tumbnail</h1>
+            <Image
+                layout="responsive"
+                src={`${BASE_URL}${result.backdrop_path || result.poster_path}` || `${BASE_URL}${result.poster_path}`}
+                height={1080}
+                width={1920}
+            />
+            <div>
+                <p></p>
+            </div>
+
         </div>
     );
 }
