@@ -1,7 +1,7 @@
 module.exports = {
     images: {
         domains: [
-            "upload.wikimedia.org",
+            "preview.redd.it",
             "image.tmdb.org"
         ],
     }

@@ -15,7 +15,7 @@ const Header = () => {
             </div>
             <Image
                 className="object-contain"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Hulu_Logo.svg/1200px-Hulu_Logo.svg.png"
+                src="https://preview.redd.it/5nf0qchs83l21.png?auto=webp&s=8934891ccea9294162c4bf91d683eff13f464aa3"
                 width={200}
                 height={100}
             />

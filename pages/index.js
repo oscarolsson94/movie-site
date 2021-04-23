@@ -8,7 +8,7 @@ export default function Home({results}) {
     return (
         <div>
             <Head>
-                <title>Moviesite</title>
+                <title>MovieDoge</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
           
