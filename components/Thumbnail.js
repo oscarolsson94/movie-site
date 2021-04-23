@@ -1,3 +1,4 @@
+import { ThumbUpIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 
 const Thumbnail = ({ result }) => {
@@ -17,7 +18,11 @@ const Thumbnail = ({ result }) => {
                 <h2>
                     {result.title || result.original_name}
                 </h2>
-                <p></p>
+                <p>
+                    {result.media_type && `${result.media_type} • `}
+                    {result.release_date || result.first_air_date}{" • "}
+                    <ThumbUpIcon className="h-5 mx-2" /> {result.vote_count}
+                </p>
             </div>
 
         </div>
