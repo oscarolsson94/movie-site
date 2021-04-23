@@ -8,7 +8,6 @@ const Header = () => {
             <div>
                 <HeaderItem title="Home" Icon={HomeIcon} />
             </div>
-            <h1>Header</h1>
             <Image
                 className="object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Hulu_Logo.svg/1200px-Hulu_Logo.svg.png"
