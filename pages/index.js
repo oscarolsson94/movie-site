@@ -22,7 +22,6 @@ export default function Home({results}) {
     );
 }
 
-
 //server side rendering
 export async function getServerSideProps(context) {
     const genre = context.query.genre;
